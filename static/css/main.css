@@ -101,9 +101,20 @@ img {
 }
 
 header {
-  width:270px;
-  float:left;
+  width:20rem;
+  top:0px;
+  left:0px;
+  bottom:0px;
   position:fixed;
+  background-color: #40627C;
+}
+
+header h1 h2 h3 h4 h5 h6 {
+  color: #e8e595;
+}
+
+header a {
+  color: #e8e595
 }
 
 header ul {
@@ -171,8 +182,8 @@ div[class='social'] a {
 .social a[href*='youtube.com'] {background-image: url('../images/icons/youtube.png');}
 
 section {
-  width:630px;
-  float:right;
+  max-width: 38rem;
+  margin-left: 22rem;
   padding-bottom:50px;
 }
 
@@ -189,9 +200,8 @@ hr {
 
 footer {
   width:270px;
-  float:left;
-  position:fixed;
-  bottom:10px;
+  margin-left:22rem;
+  margin-top: 20%;
 }
 
 @media print, screen and (max-width: 960px) {
